@@ -1,0 +1,50 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background-image: url(../images/fabric.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 70px auto;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 70px;
+}
+.navbar-brand.brand {
+    background-color: #4aaaa5;
+    text-decoration: none;
+    color: #ffffff;
+    height: 68px;
+    line-height: 66px;
+    margin: 0px;
+    text-align: center;
+    width: 150px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Main Content Container Styling */
+.container.main {
+    margin: auto;
+    background-color: #ffffff;
+}
+/* Font Styling */
+.container.main h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Footer Styling */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 64px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+}
