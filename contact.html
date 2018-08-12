@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ryan Case | Contact Me</title>
     <!-- Link to Bootstrap CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <!-- Link to My Custom Stylesheet -->
     <link rel="stylesheet" href="assets/css/mystyle.css">
 </head>
+
 <body>
+    <!-- Navbar Fixed Positioned at the Top with Toggler on Collapse -->
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white border-bottom border-secondary">
         <span class="navbar-brand mb-0 h1 text-white px-4 ml-4 my-brand">Ryan Case</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -26,13 +34,16 @@
                 </li>
                 <li class="nav-item ml-auto">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>       
+                </li>
                 <li class="nav-item active ml-auto">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact
+                        <span class="sr-only">(current)</span>
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- Main Content -->
     <div class="container bg-white p-4 border border-secondary">
         <div class="row">
             <div class="col-sm-12">
@@ -53,13 +64,16 @@
                 <label for="message">Message</label>
                 <textarea class="form-control border border-secondary" id="message" rows="10"></textarea>
             </div>
+            <!-- Submit Button Changes Color When Hovered Over -->
             <button type="button" class="btn btn-outline-info btn-lg px-4 my-button">Submit</button>
         </form>
     </div>
+    <!-- Footer Sticks to Bottom of Page -->
     <footer class="footer">
         <div class="container">
             <span>© 2018 Ryan Case</span>
         </div>
     </footer>
 </body>
+
 </html>
